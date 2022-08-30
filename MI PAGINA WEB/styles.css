@@ -1,0 +1,179 @@
+.header {
+	background-image:url(fondo.jpg);
+    background-color: #48C9B0;
+    padding: 1px;
+    text-align: center;
+	
+}
+body{
+ background-color:#48C9B0; 
+ padding-left:30px;
+ padding-right:30px;
+}
+h1{
+ font-size:30;
+ style-color: #1A5276;
+ }
+/* estilo de la barra de navegacion */
+ul.lazo {
+	margin-top:3;
+	padding-right:30px;
+	border-style:solid;
+	border-radius:20px;
+	width:73%;
+    overflow: hidden;
+    background-color: #1A5276;
+}
+/* estilo de los links*/
+ul.lazo li {
+	display:block;
+	float:left;
+	padding:10px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration:none;
+}
+ul.lazo li a{
+	
+    color: #f2f2f2;
+    padding: 12px 12px;
+		
+}
+/* estilo de los links cuando pasas por encima el puntero*/
+ul.lazo li a:hover {
+    background-color: #ddd;
+    color: black;
+	border-style:solid;
+	border-radius:20px;
+	
+}
+
+
+
+
+/* estilo del footer */
+.footerv {
+	
+  margin-bottom:2px;
+  margin-left:1%;
+  margin-top:30%;
+  width: 80%; height: 45%;
+  position:sticky;
+  display:block;
+  
+  width: 97%;
+  align-self: flex-end;
+  color: white;
+  text-align: center; 
+  background-color:#1A5276;
+ 
+  border-style:solid;
+  border-radius:20px;
+  border-color:black;
+  
+  
+}
+
+.footerv p{
+	font-size:15px;
+	display:block;
+	
+}
+.lazov{
+	
+	
+	text-decoration:none;
+}
+.lazov li{
+	
+	list-style:none;
+	padding:5px;
+    color:red;
+    text-align:center;
+    text-size:20px;
+    text-decoration:none;
+}
+.lazov li a{
+	font-size:22px;
+	text-decoration:none;
+	 color:red;
+	
+}
+
+
+p.gustos{
+	float:left;
+	padding-top:20px;
+	
+}
+img{
+	
+	float:right;
+
+}
+img.primer{
+	
+	padding-left:20px;
+	padding-right:20px;
+
+}
+img.segun{
+	
+	padding-left:20px;
+}
+
+img.tercer{
+	
+}
+.cuerpo{
+	padding-right:140px;
+	
+}
+.derecha{
+	
+	text-align: center;
+	floats:right;
+	border-left:90%;
+}
+.derecha img{
+	height:70;
+	width:70;
+	position:left;
+	border-bottom:3px;
+	
+	padding:6px 6px;
+}
+.derecha p{
+	font-size:19;
+	color:#D8D31B;
+	font-
+}
+
+.videos{
+	position:left;
+	margin-right:20%;
+	padding-top:20px
+}
+.videos iframe{
+ float:left;
+}
+.video1{
+	padding-right:30px;
+	padding-bottom:30px;
+}
+.video2{
+	padding-right:30px;
+	padding-bottom:30px;
+}
+.video3{
+	padding-right:30px;
+	padding-bottom:30px;
+}
+
+
+
+
+
+
+

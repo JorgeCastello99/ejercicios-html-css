@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<title>formularios</title>
+	</head>
+<body>
+	<h2>FORMULARIO</h2>
+
+<form action="/action_page.php">
+  Nombre:<br>
+  <input type="text" name="First name" value="Pepe">
+  <br>
+  Apellidos:<br>
+  <input type="text" name="lastname" value="Rodenas">
+  <br><br>
+  <input type="submit" value="Enviar">
+</form>
+<br>
+<br>
+<br>
+
+	
+
+	<form action="/action_page.php">
+		<select name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select><br>
+		<br>
+		<input type="submit" value="enviar">
+	</form>
+	<br>
+	<br>
+	<form action="/action_page.php">
+		<select name="cars" size="3">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select><br>
+		<br>
+		<input type="submit" value="enviar">
+	</form>
+	<br>
+	<br>
+	<form action="/action_page.php">
+		<select name="cars">
+			<option value="matrix">Matrix</option>
+			<option value="avatar">Avatar</option>
+			<option value="elclubdelalucha" selected>El club de la lucha</option>
+			<option value="lanaranjamecanica">La naranja mecánica</option>
+			
+		</select><br>
+		<br>
+		<input type="submit" value="enviar">
+	</form>
+	<br>
+	<br>
+	<br>
+	<form action="/action_page.php">
+		<select size="4" multiple>
+			<option value="matrix">Monitor</option>
+			<option value="avatar">Raatón</option>
+			<option value="elclubdelalucha" selected>Teclado</option>
+			<option value="lanaranjamecanica">Tarjeta Wifi</option>
+			
+		</select><br>
+		<br>
+		<input type="submit" value="enviar">
+	</form>
+	<br>
+	<br>
+	<textarea name="message" rows="10" cols="30">
+el gato juega en el jardin
+</textarea>
+<br>
+<input type="submit" value="enviar">
+	<br>
+	<br>
+	<br>
+	<textarea name="message" style="width:500px; height:300px">
+escriba aquí su texto
+</textarea>
+<input type="submit" value="enviar">
+<br>
+<br>
+<form>
+  Usuario:<br>
+  <input type="text" name="username"><br>
+  Contraseña:<br>
+  <input type="password" name="psw">
+  <br>
+  <input type="submit" value="enviar">
+</form>
+<br>
+<br>
+<br>
+<br>
+
+<fieldset><br>
+<legend>información personal</legend>
+<form action="/action_page.php">
+  Nombre:<br>
+ <input size="60" maxlength="40">
+ <br><br>
+ Apellidos:<br>
+  <input size="60" maxlength="40">
+  <br><br>
+  Edad:<br>
+   <input type="text" name="edad" value="tengo menos de 60 años" size="60" readonly>
+  <br><br>
+  Requisito<br>
+  <input type="text" name="requisito" value="soy estudiante" size="60" readonly disabled>
+  </fieldset>
+  <br><br>
+  <fieldset>
+  <legend>otra información de interés</legend><br>
+  Género:<br>
+  <input type="radio" name="genero" value="Hombre">Hombre<br>
+   <input type="radio" name="genero" value="Mujer" checked>Mujer<br>
+    <input type="radio" name="genero" value="otro">Otro<br>
+  <br><br>
+  Película que te gustaria ver:<br>
+  
+		<select size="4" multiple>
+			<option value="chapie">Chappie</option>
+			<option value="avatar">Avatar</option>
+			<option value="matrix" selected>Matrix</option>
+			<option value="Ex machina">Ex machina</option>
+			</select><br>
+  <br><br><br>
+  prefieres ir al instituto en:<br>
+  <input type="checkbox" name="vehiculo1" value="bici">Bicicleta<br>
+  <input type="checkbox" name="vehiculo2" value="bus">Autobús<br>
+  <input type="checkbox" name="vehiculo3" value="moto">Moto<br>
+  <input type="checkbox" name="vehiculo4" value="coche">Coche<br>
+  <input type="checkbox" name="vehiculo5" value="andando">Andando<br>
+  <br><br><br>
+  información sobre ti.<br>
+  <textarea name="message" style="width:500px; height:300px">
+</textarea><br><br>
+</fieldset><br><br>
+<fieldset>
+  <legend>Información de seguridad</legend><br>
+  <form>
+  Usuario:<br>
+  <input type="text" name="username"><br><br>
+  Contraseña:<br>
+  <input type="password" name="psw">
+  <br><br>
+  
+  Repetir Contraseña:<br>
+  <input type="password" name="psw">
+  <br><br>
+   E-mail:<br>
+  <input type="email" name="email">
+  </fieldset>
+  <br><input  type="submit" value="enviar" >
+</form>
+
+</body>
+</html>
